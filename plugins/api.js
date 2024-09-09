@@ -9,7 +9,7 @@ export default function ({ $axios }, inject) {
   })
 
   // Set baseURL to something different
-  let url = 'https://qasistem.digitalconect.cl/api/public/api/'
+  let url = 'https://qapersonal.digitalconect.cl/api/public/api/'
   api.url = url
   api.setBaseURL(url)
 
